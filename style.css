@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+#wrapper {
+
+    width: 1500px;
+    margin: 0 auto;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#header {
+
+    width: 1500px;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: block;
+    background-color: black;
+    z-index: 3;
+}
+
+#main {
+    top: 70px;
+}
+
+nav img {
+    height: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 9px;
+    
+}
+
+nav ul {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a:link, a:visited, a:focus, a:hover, a:active {
+    text-decoration: underline;
+    color: seashell;
+}
+
+#section1 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: url('assets/img-mission-background.jpg');
+}
+
+
+#mission-banner-text {
+    text-align: center;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    height: 100px;
+    top: 300px;
+    margin: 0 auto;
+    width: 1200px;
+    line-height: 50px;
+}
+
+#section2 {
+    width: 1000px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+#tea-of-the-month-text {
+    width: 1000px;
+    background-color: black;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+#section2 figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+#section2 figure {
+    display: inline;
+    float: left;
+}
+
+#section2 figure img {
+    width: 300px;
+    height: 200px;
+}
+
+#section2 figure#tea-box1 {
+    margin-left: 0px;
+}
+
+#section2 figure#tea-box2 {
+     margin-left: 50px;
+}
+
+#section2 figure#tea-box3 {
+    margin-left: 50px;
+}
+
+#section2 figure#tea-box4 {
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+#section2 figure#tea-box5 {
+    margin-top: 50px;
+    margin-left:50px;
+    
+}
+
+#section3 {
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    background: url("assets/img-locations-background.jpg");
+    border: 1px solid white;
+}
+
+
+#section3 #inner-box {
+    height: 350px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#section3 #location-box1 {
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    background: black;
+    margin-left: 110px;
+    margin-top: 15px;
+    display: inline;
+    float: left;
+    opacity: 1;
+    line-height: 75px;
+}
+
+#section3 #location-box2 {
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    background: black;
+    margin-left: 40px;
+    margin-top: 15px;
+    display: inline;
+    float: left;
+    opacity: 1;
+    line-height: 75px;
+}
+
+#section3 #location-box3 {
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    background: black;
+    margin-left: 40px;
+    margin-top: 15px;
+    display: inline;
+    float: left;
+    opacity: 1;
+    line-height: 75px;
+}
+
+#footer1 {
+    text-align: center;
+    height: 200px;   
+}
+
+#footer1 h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#footer1 h5 {
+    margin-bottom: 20px;
+}
+
+#footer2 {
+    margin-left: 20px;
+    text-align: left;
+    height: 50px;
+}
